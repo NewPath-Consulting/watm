@@ -1,4 +1,4 @@
-let ez_language_addon_version = "1.0";
+let ez_language_addon_version = "1.1";
 log(`EZ-Language Addon Version ${ez_language_addon_version} enabled.`);
 
 let ez_language = () => {
@@ -13,6 +13,12 @@ let ez_language = () => {
     "storeCartTable_tdTitle",
     "storeCartTable_itemTitle",
     "title",
+    "infoText",
+    "regTypeLiLabel",
+    "regTypeLiValue",
+    "paymentTitle",
+    "typeInstruction",
+    "pageTitle",
   ];
   const classesToProcessUser = [
     "gadgetEventEditableArea",
