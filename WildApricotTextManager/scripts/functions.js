@@ -715,6 +715,8 @@ const appendWATMBtn = (license = "default", isAdmin) => {
       `${
         isAdmin && license !== "invalid"
           ? "<br/><br/>Click icon to launch inspector"
+          : !isAdmin
+          ? "<br/><br/>You must login with a full Administrative account to use EZ WildApricot Designer."
           : ""
       }`,
     interactiveBorder: 30,
