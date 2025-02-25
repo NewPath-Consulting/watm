@@ -19,6 +19,7 @@ let ez_language = () => {
     "paymentTitle",
     "typeInstruction",
     "pageTitle",
+    "infoColumn",
   ];
   const classesToProcessUser = [
     "gadgetEventEditableArea",
